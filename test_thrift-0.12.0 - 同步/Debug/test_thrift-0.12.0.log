@@ -1,0 +1,42 @@
+﻿生成启动时间为 2019/2/22 星期五 10:20:25。
+     1>项目“E:\canDel\test_thrift-0.12.0\test_thrift-0.12.0\test_thrift-0.12.0.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         F:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\test_thrift-0.12.0.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         F:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\test_thrift-0.12.0.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt HelloService.cpp Hello_constants.cpp Hello_types.cpp server.cpp
+         server.cpp
+     1>e:\candel\test_thrift-0.12.0\test_thrift-0.12.0\server.cpp(4): warning C4627: “#include "HelloService.h"”:  在查找预编译头使用时跳过
+                 将指令添加到“stdafx.h”或重新生成预编译头
+     1>e:\candel\test_thrift-0.12.0\test_thrift-0.12.0\server.cpp(5): warning C4627: “#include <thrift/protocol/TBinaryProtocol.h>”:  在查找预编译头使用时跳过
+                 将指令添加到“stdafx.h”或重新生成预编译头
+     1>e:\candel\test_thrift-0.12.0\test_thrift-0.12.0\server.cpp(6): warning C4627: “#include <thrift/server/TSimpleServer.h>”:  在查找预编译头使用时跳过
+                 将指令添加到“stdafx.h”或重新生成预编译头
+     1>e:\candel\test_thrift-0.12.0\test_thrift-0.12.0\server.cpp(7): warning C4627: “#include <thrift/transport/TServerSocket.h>”:  在查找预编译头使用时跳过
+                 将指令添加到“stdafx.h”或重新生成预编译头
+     1>e:\candel\test_thrift-0.12.0\test_thrift-0.12.0\server.cpp(8): warning C4627: “#include <thrift/transport/TBufferTransports.h>”:  在查找预编译头使用时跳过
+                 将指令添加到“stdafx.h”或重新生成预编译头
+     1>e:\candel\test_thrift-0.12.0\test_thrift-0.12.0\server.cpp(68): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         Hello_types.cpp
+     1>e:\candel\test_thrift-0.12.0\test_thrift-0.12.0\hello_types.cpp(7): warning C4627: “#include "Hello_types.h"”:  在查找预编译头使用时跳过
+                 将指令添加到“stdafx.h”或重新生成预编译头
+     1>e:\candel\test_thrift-0.12.0\test_thrift-0.12.0\hello_types.cpp(9): warning C4627: “#include <algorithm>”:  在查找预编译头使用时跳过
+                 将指令添加到“stdafx.h”或重新生成预编译头
+     1>e:\candel\test_thrift-0.12.0\test_thrift-0.12.0\hello_types.cpp(10): warning C4627: “#include <ostream>”:  在查找预编译头使用时跳过
+                 将指令添加到“stdafx.h”或重新生成预编译头
+     1>e:\candel\test_thrift-0.12.0\test_thrift-0.12.0\hello_types.cpp(12): warning C4627: “#include <thrift/TToString.h>”:  在查找预编译头使用时跳过
+                 将指令添加到“stdafx.h”或重新生成预编译头
+     1>e:\candel\test_thrift-0.12.0\test_thrift-0.12.0\hello_types.cpp(17): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         Hello_constants.cpp
+     1>e:\candel\test_thrift-0.12.0\test_thrift-0.12.0\hello_constants.cpp(7): warning C4627: “#include "Hello_constants.h"”:  在查找预编译头使用时跳过
+                 将指令添加到“stdafx.h”或重新生成预编译头
+     1>e:\candel\test_thrift-0.12.0\test_thrift-0.12.0\hello_constants.cpp(18): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         HelloService.cpp
+     1>e:\candel\test_thrift-0.12.0\test_thrift-0.12.0\helloservice.cpp(7): warning C4627: “#include "HelloService.h"”:  在查找预编译头使用时跳过
+                 将指令添加到“stdafx.h”或重新生成预编译头
+     1>e:\candel\test_thrift-0.12.0\test_thrift-0.12.0\helloservice.cpp(1866): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         正在生成代码...
+     1>已完成生成项目“E:\canDel\test_thrift-0.12.0\test_thrift-0.12.0\test_thrift-0.12.0.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:01.18
